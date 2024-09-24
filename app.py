@@ -1,3 +1,9 @@
+import subprocess
+import sys
+
+# Install scikit-learn==1.1.3
+subprocess.check_call([sys.executable, "-m", "pip", "install", "scikit-learn==1.1.3"])
+
 import streamlit as st
 import pandas as pd
 import numpy as np

@@ -1,6 +1,7 @@
-streamlit
-scikit-learn
 numpy
 pandas
 joblib
 python_version>=3.8
+streamlit
+scikit-learn
+
